@@ -61,7 +61,7 @@ function fibonacci (n){
     return `${output[n]}`
 }
 
-console.log(fibonacci(10))
+console.log(fibonacci(7))
 
 // descomente a linha seguinte para testar sua função
 // console.assert(fibonacci(7) === 13, 'A função fibonacci não está funcionando como esperado');
