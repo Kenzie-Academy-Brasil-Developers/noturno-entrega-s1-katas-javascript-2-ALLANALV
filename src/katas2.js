@@ -53,13 +53,12 @@ function factorial (factor){
 
 function fibonacci (n){
     let output = [0,1]
-    let indice1 = 0
     let indice2 = 1
     for(let indice1 = 0; indice1 < n; indice1++){
         output.push(output[indice1] + output[indice2])
         indice2++
     }
-    return `${output}    ${output[n]}`
+    return `${output[n]}`
 }
 
 console.log(fibonacci(10))
